@@ -1,3 +1,56 @@
 .container {
-  background-color: green;
+  max-width: 600px; background: lightgray; padding:30px 30px 30px 30px;
+}
+body {
+  background: red;
+}
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  }
+
+.container {
+  margin: 0 auto;
+}
+.story-text {
+    width:70%; float: right;
+}
+.sidebar {
+  width: 30%; float: left;
+}
+
+.clearfix::after {
+    content:inherit;
+    clear: both;
+    display: table;
+}
+@media(min-width: 550px) {
+
+}
+.byline{
+  margin: 2;
+  padding: 3;
+}
+.publish-time {
+  margin: 1;
+  padding: 0;
+}
+p{
+  margin-left: 20;
+}
+ul{
+  margin-right: 20;
+}
+.src{
+  margin-top: 5;
+}
+.article {
+  margin: 10;
+}
+h1{
+  border-style: solid; border-color: black;
+}
+h3 {
+  margin: 0;
 }
